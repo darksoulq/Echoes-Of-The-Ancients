@@ -1,0 +1,9 @@
+{
+  "parent": "echoes_of_the_ancients:custom/locked_desert_door",
+  "textures": {
+    "all": "echoes_of_the_ancients:block/locked_desert_door",
+    "particle": "echoes_of_the_ancients:block/locked_desert_door",
+    "0": "echoes_of_the_ancients:block/locked_desert_door"
+  },
+  "render_type": "solid"
+}

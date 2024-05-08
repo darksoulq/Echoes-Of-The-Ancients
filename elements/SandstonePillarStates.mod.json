@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "SandstonePillar",
+    "blockstateList": [
+      {
+        "texture": "sandstone_bottom",
+        "textureTop": "sandstone_bottom",
+        "textureLeft": "sandstone_pillar_side_0",
+        "textureFront": "sandstone_pillar_side_0",
+        "textureRight": "sandstone_pillar_side_0",
+        "textureBack": "sandstone_pillar_side_0",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "sandstone_bottom",
+        "textureTop": "sandstone_bottom",
+        "textureLeft": "sandstone_pillar_side_3",
+        "textureFront": "sandstone_pillar_side_3",
+        "textureRight": "sandstone_pillar_side_3",
+        "textureBack": "sandstone_pillar_side_3",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "sandstone_bottom",
+        "textureTop": "sandstone_bottom",
+        "textureLeft": "sandstone_pillar_side_1",
+        "textureFront": "sandstone_pillar_side_1",
+        "textureRight": "sandstone_pillar_side_1",
+        "textureBack": "sandstone_pillar_side_1",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

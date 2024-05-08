@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "echoes_of_the_ancients:block/sandstone_brick_side",
+    "particle": "echoes_of_the_ancients:block/sandstone_brick_side"
+  },
+  "render_type": "solid"
+}

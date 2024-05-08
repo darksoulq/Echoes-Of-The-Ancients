@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "echoes_of_the_ancients:block/sandstone_pillar"
+    },
+    "blockstate=1": {
+      "model": "echoes_of_the_ancients:block/sandstone_pillar_states_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "echoes_of_the_ancients:block/sandstone_pillar_states_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "echoes_of_the_ancients:block/sandstone_pillar_states_blockstate_2"
+    }
+  }
+}

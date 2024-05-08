@@ -1,0 +1,10 @@
+{
+  "parent": "echoes_of_the_ancients:custom/rift",
+  "textures": {
+    "all": "echoes_of_the_ancients:block/sandstone",
+    "particle": "echoes_of_the_ancients:block/sandstone",
+    "0": "echoes_of_the_ancients:block/rift",
+    "missing": "echoes_of_the_ancients:block/"
+  },
+  "render_type": "cutout"
+}

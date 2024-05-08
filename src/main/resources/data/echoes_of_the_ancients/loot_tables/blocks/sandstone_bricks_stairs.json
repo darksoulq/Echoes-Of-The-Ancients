@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "echoes_of_the_ancients:blocks/sandstone_bricks_stairs",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "echoes_of_the_ancients:sandstone_bricks_stairs"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "echoes_of_the_ancients:block/sandstone_bottom",
+    "top": "echoes_of_the_ancients:block/sandstone_brick_side",
+    "side": "echoes_of_the_ancients:block/sandstone_brick_side"
+  },
+  "render_type": "solid"
+}

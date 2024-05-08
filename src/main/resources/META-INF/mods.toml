@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Not specified"
+
+[[mods]]
+modId="echoes_of_the_ancients"
+version="1.0.0"
+displayName="Echoes Of The Ancients"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="amaan, MCreator"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.echoes_of_the_ancients]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.echoes_of_the_ancients]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.echoes_of_the_ancients]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

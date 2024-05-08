@@ -1,0 +1,572 @@
+{
+  "mod_elements": [
+    {
+      "name": "SandstonePillar",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/echoes_of_the_ancients/models/item/sandstone_pillar.json",
+          "src/main/resources/data/echoes_of_the_ancients/loot_tables/blocks/sandstone_pillar.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_pillar.json",
+          "src/main/java/net/mcreator/echoesoftheancients/block/SandstonePillarBlock.java",
+          "src/main/resources/assets/echoes_of_the_ancients/blockstates/sandstone_pillar.json"
+        ]
+      },
+      "path": "~/Blocks/SandstonePillar"
+    },
+    {
+      "name": "SandstonePillarNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_pillar_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/echoesoftheancients/procedures/SandstonePillarNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/SandstonePillar"
+    },
+    {
+      "name": "SandstonePillarConnectorDestroy",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_pillar_connector_destroy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/echoesoftheancients/procedures/SandstonePillarConnectorDestroyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/SandstonePillar"
+    },
+    {
+      "name": "AncientDeserts",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_deserts",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "SandstonePillarStates",
+      "type": "blockstates",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_pillar_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_pillar_states_blockstate_0.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_pillar_states_blockstate_1.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_pillar_states_blockstate_2.json"
+        ]
+      },
+      "path": "~/Blocks/SandstonePillar"
+    },
+    {
+      "name": "SandstonePillarRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_pillar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/recipes/sandstone_pillar_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/SandstonePillar"
+    },
+    {
+      "name": "Rift",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rift",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/rift.json",
+          "src/main/java/net/mcreator/echoesoftheancients/block/RiftBlock.java",
+          "src/main/resources/assets/echoes_of_the_ancients/models/item/rift.json",
+          "src/main/resources/data/echoes_of_the_ancients/loot_tables/blocks/rift.json",
+          "src/main/resources/assets/echoes_of_the_ancients/blockstates/rift.json"
+        ]
+      },
+      "path": "~/Blocks/Rift"
+    },
+    {
+      "name": "SandstoneBricks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/echoes_of_the_ancients/blockstates/sandstone_bricks.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_bricks.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/item/sandstone_bricks.json",
+          "src/main/resources/data/echoes_of_the_ancients/loot_tables/blocks/sandstone_bricks.json",
+          "src/main/java/net/mcreator/echoesoftheancients/block/SandstoneBricksBlock.java"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "SandstoneBricksRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/recipes/sandstone_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "SandstoneBricksStairs",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/loot_tables/blocks/sandstone_bricks_stairs.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_bricks_stairs.json",
+          "src/main/java/net/mcreator/echoesoftheancients/block/SandstoneBricksStairsBlock.java",
+          "src/main/resources/assets/echoes_of_the_ancients/models/item/sandstone_bricks_stairs.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_bricks_stairs_inner.json",
+          "src/main/resources/assets/echoes_of_the_ancients/blockstates/sandstone_bricks_stairs.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_bricks_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "SandstoneBricksStairsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_bricks_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/recipes/sandstone_bricks_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "SandstoneBricksWalls",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_bricks_walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_bricks_walls_inventory.json",
+          "src/main/java/net/mcreator/echoesoftheancients/block/SandstoneBricksWallsBlock.java",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_bricks_walls_side_tall.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/item/sandstone_bricks_walls.json",
+          "src/main/resources/assets/echoes_of_the_ancients/blockstates/sandstone_bricks_walls.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_bricks_walls_post.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/sandstone_bricks_walls.json",
+          "src/main/resources/data/echoes_of_the_ancients/loot_tables/blocks/sandstone_bricks_walls.json"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "SandstoneBricksWallsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_bricks_walls_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/recipes/sandstone_bricks_walls_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "SandstoneBrick",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/echoesoftheancients/item/SandstoneBrickItem.java",
+          "src/main/resources/assets/echoes_of_the_ancients/models/item/sandstone_brick.json"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "SandstoneBrickRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_brick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/recipes/sandstone_brick_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "SandstoneBricksCrafting",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_bricks_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/recipes/sandstone_bricks_crafting.json"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "SandstoneBricksStairsCrafting",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_bricks_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/recipes/sandstone_bricks_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "SandstoneBricksWallsCrafting",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_bricks_walls_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/recipes/sandstone_bricks_walls_crafting.json"
+        ]
+      },
+      "path": "~/Blocks/SandstoneBricks"
+    },
+    {
+      "name": "Mummy",
+      "type": "animatedentity",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mummy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/echoesoftheancients/entity/MummyEntity.java",
+          "src/main/resources/data/echoes_of_the_ancients/forge/biome_modifier/mummy_biome_modifier.json",
+          "src/main/java/net/mcreator/echoesoftheancients/client/renderer/MummyRenderer.java",
+          "src/main/java/net/mcreator/echoesoftheancients/entity/model/MummyModel.java",
+          "src/main/resources/assets/echoes_of_the_ancients/models/item/mummy_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities/Mummy"
+    },
+    {
+      "name": "Ankh",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/echoesoftheancients/item/AnkhItem.java",
+          "src/main/resources/assets/echoes_of_the_ancients/models/item/ankh.json"
+        ]
+      },
+      "path": "~/Items/Desert"
+    },
+    {
+      "name": "MummyDrops",
+      "type": "loottable",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mummy_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/loot_tables/entities/mummy_drops.json"
+        ]
+      },
+      "path": "~/Entities/Mummy"
+    },
+    {
+      "name": "MummyDeathDrop",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mummy_death_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/echoesoftheancients/procedures/MummyDeathDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/Mummy"
+    },
+    {
+      "name": "DesertLockedDoorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_locked_door_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/echoesoftheancients/procedures/DesertLockedDoorOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DesertLockedDoor"
+    },
+    {
+      "name": "DesertLockedDoor",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_locked_door",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/echoesoftheancients/block/DesertLockedDoorBlock.java",
+          "src/main/resources/data/echoes_of_the_ancients/loot_tables/blocks/desert_locked_door.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/block/desert_locked_door.json",
+          "src/main/resources/assets/echoes_of_the_ancients/models/item/desert_locked_door.json",
+          "src/main/resources/assets/echoes_of_the_ancients/blockstates/desert_locked_door.json"
+        ]
+      },
+      "path": "~/Blocks/DesertLockedDoor"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SandstoneBricksStairs",
+      "~CUSTOM:SandstoneBricksWalls",
+      "~CUSTOM:SandstoneBricks",
+      "~CUSTOM:SandstonePillar"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:SandstoneBricksWalls",
+      "~CUSTOM:SandstoneBricks"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:SandstoneBricksWalls"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:SandstoneBricksStairs"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.echoes_of_the_ancients.sandstone_brick": "Sandstone Brick",
+      "block.echoes_of_the_ancients.desert_locked_door": "Desert Locked Door",
+      "item.echoes_of_the_ancients.mummy_spawn_egg": "Mummy Spawn Egg",
+      "block.echoes_of_the_ancients.rift": "Rift",
+      "item_group.echoes_of_the_ancients.ancient_deserts": "Ancient Deserts",
+      "block.echoes_of_the_ancients.sandstone_pillar": "Sandstone Pillar",
+      "block.echoes_of_the_ancients.sandstone_bricks_stairs": "Sandstone Bricks Stairs",
+      "item.echoes_of_the_ancients.ankh": "Ankh",
+      "block.echoes_of_the_ancients.sandstone_bricks": "Sandstone Bricks",
+      "entity.echoes_of_the_ancients.mummy": "Mummy",
+      "block.echoes_of_the_ancients.sandstone_bricks_walls": "Sandstone Bricks Walls"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "SandstonePillar",
+            "children": []
+          },
+          {
+            "name": "Rift",
+            "children": []
+          },
+          {
+            "name": "SandstoneBricks",
+            "children": []
+          },
+          {
+            "name": "DesertLockedDoor",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": [
+          {
+            "name": "Mummy",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Loot_Tables",
+        "children": [
+          {
+            "name": "Desert",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Desert",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Structures",
+        "children": [
+          {
+            "name": "Desert",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "echoes_of_the_ancients",
+    "modName": "Echoes Of The Ancients",
+    "version": "1.0.0",
+    "author": "amaan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.echoesoftheancients"
+  },
+  "mcreatorVersion": 202400118518
+}

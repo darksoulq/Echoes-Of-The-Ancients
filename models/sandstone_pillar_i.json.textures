@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "sandstone_pillar_side_0",
+        "3": "sandstone_bottom"
+      },
+      "name": "default"
+    },
+    "d": {
+      "map": {
+        "2": "sandstone_pillar_side_3",
+        "3": "sandstone_bottom"
+      },
+      "name": "d"
+    },
+    "u": {
+      "map": {
+        "2": "sandstone_pillar_side_1",
+        "3": "sandstone_bottom"
+      },
+      "name": "u"
+    }
+  }
+}

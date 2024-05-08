@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "echoes_of_the_ancients:sandstone_brick"
+    }
+  },
+  "result": {
+    "item": "echoes_of_the_ancients:sandstone_bricks_walls",
+    "count": 1
+  }
+}
