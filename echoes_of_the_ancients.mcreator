@@ -446,6 +446,20 @@
         ]
       },
       "path": "~/Blocks/DesertLockedDoor"
+    },
+    {
+      "name": "DesertedPortalLoot",
+      "type": "loottable",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deserted_portal_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/echoes_of_the_ancients/loot_tables/chests/deserted_portal_loot.json"
+        ]
+      },
+      "path": "~/Loot_Tables/Desert"
     }
   ],
   "variable_elements": [],
